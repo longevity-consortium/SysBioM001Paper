@@ -26,6 +26,7 @@ This directory includes the code for the differential rank conservation (DIRAC; 
 ### 2. WGCNA  
 This directory includes the code for the weighted gene correlation network analyses (WGCNA; Langfelder, P. & Horvath, S. BMC Bioinform. 2008), corresponding to:  
 * Figure 3a–e  
+* Supplementary Figure 5b  
 
 ### 3. GEM  
 This directory includes the code for the integrated analysis of mouse genome-scale metabolic model (GEM; Khodaee, S. et al. Sci. Rep. 2020), corresponding to:  
