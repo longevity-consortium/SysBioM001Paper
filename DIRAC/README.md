@@ -1,5 +1,5 @@
 # SysBioM001Paper/DIRAC
-This directory includes the code for the differential rank conservation (DIRAC; Eddy, J.A. et al. PLoS Comput. Biol. 2010) analyses used in our M001/M004 paper.  
+This directory includes the code for the Differential Rank Conservation (DIRAC; Eddy, J.A. et al. PLoS Comput. Biol. 2010) analyses used in our M001/M004 paper.  
 
 ## Code overview  
 > The below figure numbers correspond to the current preprint version (DOI: https://doi.org/10.1101/2022.07.11.22277435).  
@@ -14,10 +14,11 @@ Output:
 
 ### 2. Code02_LC-M001-proteomics_DIRAC-GOBP-test.ipynb  
 This Jupyter Notebook performed stasitical analysis for the DIRAC results of the LC M001 liver proteomics dataset (GOBP module version); i.e., this is the sub-notebook of Code01_LC-M001-proteomics_DIRAC-GOBP.ipynb. This notebook was run on the R kernel.  
+Output:  
 * Supplementary Data 1  
 
 ### 3. Code03_LC-M001-proteomics_DIRAC-WGCNA.ipynb  
-This Jupyter Notebook performed the DIRAC analysis of the LC M001 liver proteomics dataset using weighted gene correlation network analysis (WGCNA; Langfelder, P. & Horvath, S. BMC Bioinform. 2008)-derived module set. This notebook was run on the Python kernel.  
+This Jupyter Notebook performed the DIRAC analysis of the LC M001 liver proteomics dataset using Weighted Gene Correlation Network Analysis (WGCNA; Langfelder, P. & Horvath, S. BMC Bioinform. 2008)-derived module set. This notebook was run on the Python kernel.  
 Output:  
 * Cleaned module metadata, which is incorporated into Supplementary Data 2 in R sub-notebook  
 * DIRAC measures, which are used in statistical analysis (R sub-notebook)  
@@ -25,6 +26,7 @@ Output:
 
 ### 4. Code04_LC-M001-proteomics_DIRAC-WGCNA-test.ipynb  
 This Jupyter Notebook performed stasitical analysis for the DIRAC results of the LC M001 liver proteomics dataset (WGCNA module version); i.e., this is the sub-notebook of Code03_LC-M001-proteomics_DIRAC-WGCNA.ipynb. This notebook was run on the R kernel.  
+Output:  
 * Supplementary Data 2  
 
 ### 5. Code05_M001-related-transcriptomics_DIRAC-GOBP.ipynb  
@@ -37,6 +39,7 @@ Output:
 
 ### 6. Code06_M001-related-transcriptomics_DIRAC-GOBP-test.ipynb  
 This Jupyter Notebook performed stasitical analysis for the DIRAC results of the LC M001-related liver transcriptomics dataset; i.e., this is the sub-notebook of Code05_M001-related-transcriptomics_DIRAC-GOBP.ipynb. This notebook was run on the R kernel.  
+Output:  
 * Supplementary Data 5  
 
 ### 7. Code07_LC-M001-prot-vs-related-txn_DIRAC-GOBP-comparison.ipynb  
@@ -49,6 +52,7 @@ Output:
 
 ### 8. Code08_LC-M001-prot-vs-related-txn_DIRAC-GOBP-comparison-test.ipynb  
 This Jupyter Notebook performed stasitical analysis for the DIRAC result comparisons between the LC M001 liver proteomics dataset and the LC M001-related liver transcriptomics dataset; i.e., this is the sub-notebook of Code07_LC-M001-prot-vs-related-txn_DIRAC-GOBP-comparison.ipynb. This notebook was run on the R kernel.  
+Output:  
 * Supplementary Data 6  
 
 ### 9. Code09_LC-M001-M004-proteomics_DIRAC-GOBP.ipynb  
@@ -62,6 +66,7 @@ Output:
 
 ### 10. Code10_LC-M001-M004-proteomics_DIRAC-GOBP-test.ipynb  
 This Jupyter Notebook performed stasitical analysis for the DIRAC results of the LC M001 and M004 liver proteomics datasets; i.e., this is the sub-notebook of Code09_LC-M001-M004-proteomics_DIRAC-GOBP.ipynb. This notebook was run on the R kernel.  
+Output:  
 * Supplementary Data 7  
 
 ### 11. Code11_Arivale-proteomics_DIRAC-GOBP-CA10Group.ipynb  
@@ -103,9 +108,13 @@ The following library/package versions were used and hence confirmed at least.
 * Python statsmodels (version 0.11.1 or 0.13.0)  
 * Python matplotlib (version 3.1.3 or 3.4.3)  
 * Python seaborn (version 0.10.1 or 0.11.2)  
+* Python venn (version 0.1.3)  
+* Python goatools (version 1.2.3)  
+* Python scikit-learn (version 1.0.1)  
 * R (version 4.1.1)  
 * R tidyverse (version 1.3.1)  
 * R multcomp (version 1.4.19)  
+* R openxlsx (version 4.2.5)  
 
 ## Log  
 Last update on Jul 22, 2022  
