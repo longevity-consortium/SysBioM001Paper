@@ -7,8 +7,8 @@ This directory includes the code for the Differential Rank Conservation (DIRAC; 
 ### 1. Code01_LC-M001-proteomics_DIRAC-GOBP.ipynb  
 This Jupyter Notebook performed the DIRAC analysis of the Longevity Consortium (LC) M001 liver proteomics dataset using Gene Ontology Biological Process (GOBP) module set. This notebook was run on the Python kernel.  
 Output:  
-* Cleaned module metadata, which is incorporated into Supplementary Data 1 in R sub-notebook  
-* DIRAC measures, which are used in statistical analysis (R sub-notebook)  
+* Cleaned module metadata, which was incorporated into Supplementary Data 1 in R sub-notebook  
+* DIRAC measures, which were used in statistical analysis (R sub-notebook)  
 * Figure 2  
 * Supplementary Figure 1  
 
@@ -20,8 +20,8 @@ Output:
 ### 3. Code03_LC-M001-proteomics_DIRAC-WGCNA.ipynb  
 This Jupyter Notebook performed the DIRAC analysis of the LC M001 liver proteomics dataset using Weighted Gene Correlation Network Analysis (WGCNA; Langfelder, P. & Horvath, S. BMC Bioinform. 2008)-derived module set. This notebook was run on the Python kernel.  
 Output:  
-* Cleaned module metadata, which is incorporated into Supplementary Data 2 in R sub-notebook  
-* DIRAC measures, which are used in statistical analysis (R sub-notebook)  
+* Cleaned module metadata, which was incorporated into Supplementary Data 2 in R sub-notebook  
+* DIRAC measures, which were used in statistical analysis (R sub-notebook)  
 * Figure 3f–i  
 
 ### 4. Code04_LC-M001-proteomics_DIRAC-WGCNA-test.ipynb  
@@ -32,8 +32,8 @@ Output:
 ### 5. Code05_M001-related-transcriptomics_DIRAC-GOBP.ipynb  
 This Jupyter Notebook performed the DIRAC analysis of the LC M001-related liver transcriptomics dataset (Tyshkovskiy, A. et al. Cell Metab. 2019). This notebook was run on the Python kernel.  
 Output:  
-* Cleaned module metadata, which is incorporated into Supplementary Data 5 in R sub-notebook  
-* DIRAC measures, which are used in statistical analysis (R sub-notebook)  
+* Cleaned module metadata, which was incorporated into Supplementary Data 5 in R sub-notebook  
+* DIRAC measures, which were used in statistical analysis (R sub-notebook)  
 * Figure 5a, h  
 * Supplementary Figure 3a–d, g, j  
 
@@ -45,9 +45,9 @@ Output:
 ### 7. Code07_LC-M001-prot-vs-related-txn_DIRAC-GOBP-comparison.ipynb  
 This Jupyter Notebook compared the DIRAC results of the LC M001 liver proteomics dataset with those of the LC M001-related liver transcriptomics dataset. This notebook was run on the Python kernel.  
 Output:  
-* Combined module metadata, which is incorporated into Supplementary Data 6 in R sub-notebook  
-* Combined sample–mouse metadata, which is used in R sub-notebook  
-* Cleaned tables of DIRAC measures, which are used in statistical analysis (R sub-notebook)  
+* Combined module metadata, which was incorporated into Supplementary Data 6 in R sub-notebook  
+* Combined sample–mouse metadata, which was used in R sub-notebook  
+* Cleaned tables of DIRAC measures, which were used in statistical analysis (R sub-notebook)  
 * Figure 5b–d  
 
 ### 8. Code08_LC-M001-prot-vs-related-txn_DIRAC-GOBP-comparison-test.ipynb  
@@ -58,9 +58,9 @@ Output:
 ### 9. Code09_LC-M001-M004-proteomics_DIRAC-GOBP.ipynb  
 This Jupyter Notebook performed the DIRAC analysis of the LC M004 liver proteomics dataset jointly with the LC M001 liver proteomics dataset. This notebook was run on the Python kernel.  
 Output:  
-* Cleaned module metadata, which is incorporated into Supplementary Data 7 in R sub-notebook  
-* Combined sample–mouse metadata, which is used in R sub-notebook  
-* DIRAC measures, which are used in statistical analysis (R sub-notebook)  
+* Cleaned module metadata, which was incorporated into Supplementary Data 7 in R sub-notebook  
+* Combined sample–mouse metadata, which was used in R sub-notebook  
+* DIRAC measures, which were used in statistical analysis (R sub-notebook)  
 * Figure 5e–g  
 * Supplementary Figure 3e, f, h, i  
 
