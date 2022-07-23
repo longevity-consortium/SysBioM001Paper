@@ -9,21 +9,21 @@ This MATLAB code reconstructed the context-specific GEMs by integrating the Long
 > Of note, this code, written by Priyanka Baloni, was copied from the private GitHub repository (https://github.com/longevity-consortium/MetabolicModeling.git) on Jul. 22, 2022.  
 
 Output:  
-* 78 context-specific GEMs, which are used in downstream analysis  
+* 78 context-specific GEMs, which were used in downstream analysis (Figure 4, Supplementary Figure 2)  
 
 ### 2. GEM_flux-variability-analysis.m  
 This MATLAB code performed flux variability analysis (FVA) using the reconstructed context-specific GEMs.  
 > Of note, this code, written by Priyanka Baloni, was copied from the private GitHub repository (https://github.com/longevity-consortium/MetabolicModeling.git) on Jul. 22, 2022.  
 
 Output:  
-* Reaction flux values for each context-specific GEM, which are used in downstream analysis  
+* Reaction flux values for each context-specific GEM, which were used in downstream analysis (Figure 4, Supplementary Figure 2)  
 
 ### 3. Code01_M001-related-transcriptomics_GEM-flux.ipynb  
 This Jupyter Notebook compared the calculated maximum flux values between the context-specific GEMs (i.e., sample groups). This notebook was run on the Python kernel.  
 Output:  
-* Cleaned flux data, which is used in stasitical analysis (R sub-notebook)  
-* Cleaned sample–model metadata, which is used in R sub-notebook  
-* Cleaned reaction metadata, which is incorporated into Supplementary Data 3 in R sub-notebook  
+* Cleaned flux data, which was used in stasitical analysis (R sub-notebook)  
+* Cleaned sample–model metadata, which was used in R sub-notebook  
+* Cleaned reaction metadata, which was incorporated into Supplementary Data 3 in R sub-notebook  
 * Figure 4a–d  
 * Supplementary Figure 2c–f  
 
