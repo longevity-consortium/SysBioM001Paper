@@ -7,12 +7,14 @@ This directory includes the code for the genome-scale metabolic model (GEM) reco
 ### 1. GEM_reconstruction.m  
 This MATLAB code reconstructed the context-specific GEMs by integrating the Longevity Consortium (LC) M001-related liver transcriptomics dataset (Tyshkovskiy, A. et al. Cell Metab. 2019) with a mouse GEM (iMM1865; Khodaee, S. et al. Sci. Rep. 2020).  
 > Of note, this code, written by Priyanka Baloni, was copied from the private GitHub repository (https://github.com/longevity-consortium/MetabolicModeling.git) on Jul. 22, 2022.  
+
 Output:  
 * 78 context-specific GEMs, which are used in downstream analysis  
 
 ### 2. GEM_flux-variability-analysis.m  
 This MATLAB code performed flux variability analysis (FVA) using the reconstructed context-specific GEMs.  
 > Of note, this code, written by Priyanka Baloni, was copied from the private GitHub repository (https://github.com/longevity-consortium/MetabolicModeling.git) on Jul. 22, 2022.  
+
 Output:  
 * Reaction flux values for each context-specific GEM, which are used in downstream analysis  
 
