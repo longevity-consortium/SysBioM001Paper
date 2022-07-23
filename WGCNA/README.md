@@ -9,16 +9,16 @@ This Jupyter Notebook performed WGCNA for the Longevity Consortium (LC) M001 liv
 > Of note, this code, originally written by Tomasz Wilmanski, was copied from the private GitHub repository (https://github.com/longevity-consortium/Sysbio_WGCNA.git) on Jul. 22, 2022.  
 
 Output:  
-* Assignment of each protein to a module within the correlation network, which is used in downstream analysis (Figure 3)  
-* Eigengene values for each module, which are used in downstream analysis (Figure 3)  
-* Intramodular connectivity of each protein within the Darkgreen module, which is used in downstream analysis (Figure 3)  
+* Assignment of each protein to a module within the correlation network, which was used in downstream analysis (Figure 3)  
+* Eigengene values for each module, which were used in downstream analysis (Figure 3)  
+* Intramodular connectivity of each protein within the Darkgreen module, which was used in downstream analysis (Figure 3)  
 
 ### 2. WGCNA_Arivale-metabolomics.r  
 This R code performed WGCNA for the Arivale plasma metabolomics dataset (Price, N.D. et al. Nat. Biotechnol. 2017; Earls, J.C. et al. J. Gerontol. A. Biol. Sci. Med. Sci. 2019).  
 > Of note, this code, written by Tomasz Wilmanski, was copied from the public GitHub repository (https://github.com/PriceLab/WGCNA-Metabolon-Code.git) on Jul. 22, 2022.  
 
 Output:  
-* Assignment of each protein to a module within the correlation network, which is used in downstream analysis (Supplementary Figure 5, 6)  
+* Assignment of each protein to a module within the correlation network, which was used in downstream analysis (Supplementary Figure 5, 6)  
 * Eigengene values for each module, which were not used directly in our M001/M004 paper  
 
 ## Requirements  
