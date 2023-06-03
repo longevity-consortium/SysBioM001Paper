@@ -1,43 +1,34 @@
 # SysBioM001Paper/GEM
-This directory includes the code for the genome-scale metabolic model (GEM) reconstruction analysis used in our M001/M004 paper.  
+This directory includes the main code for the mouse genome-scale metabolic model (GEM; Khodaee, S. et al. Sci. Rep. 2020) reconstruction analysis used in our M001/M004 paper.  
 
 ## Code overview  
-> The below figure numbers correspond to the current preprint version (DOI: https://doi.org/10.1101/2022.07.11.22277435).  
+> The below figure numbers correspond to the revised manuscript that is still under review.  
 
-### 1. GEM_reconstruction.m  
+### 1. Code01_M001-related-transcriptomics_GEM-reconstruction.m  
 This MATLAB code reconstructed the context-specific GEMs by integrating the Longevity Consortium (LC) M001-related liver transcriptomics dataset (Tyshkovskiy, A. et al. Cell Metab. 2019) with a mouse GEM (iMM1865; Khodaee, S. et al. Sci. Rep. 2020).  
-> Of note, this code, written by Priyanka Baloni ([@pbaloni](https://github.com/pbaloni)), was copied from the private GitHub repository (https://github.com/longevity-consortium/MetabolicModeling.git) on Jul. 22, 2022.  
+> Of note, this code was written by Priyanka Baloni ([@pbaloni](https://github.com/pbaloni)) and copied from the private GitHub repository (https://github.com/longevity-consortium/MetabolicModeling.git) on Jul. 22, 2022.  
 
 Output:  
-* 78 context-specific GEMs, which were used in downstream analysis (Figure 4, Supplementary Figure 2)  
+* Context-specific GEMs, which were used in downstream analyses  
 
-### 2. GEM_flux-variability-analysis.m  
+### 2. Code02_M001-related-transcriptomics_GEM-FVA.m  
 This MATLAB code performed flux variability analysis (FVA) using the reconstructed context-specific GEMs.  
-> Of note, this code, written by Priyanka Baloni ([@pbaloni](https://github.com/pbaloni)), was copied from the private GitHub repository (https://github.com/longevity-consortium/MetabolicModeling.git) on Jul. 22, 2022.  
+> Of note, this code was written by Priyanka Baloni ([@pbaloni](https://github.com/pbaloni)) and copied from the private GitHub repository (https://github.com/longevity-consortium/MetabolicModeling.git) on Jul. 22, 2022.  
 
 Output:  
-* Reaction flux values for each context-specific GEM, which were used in downstream analysis (Figure 4, Supplementary Figure 2)  
+* Reaction flux values for each context-specific GEM, which were used in downstream analyses (Figure 6)  
 
-### 3. Code01_M001-related-transcriptomics_GEM-flux.ipynb  
-This Jupyter Notebook compared the calculated maximum flux values between the context-specific GEMs (i.e., sample groups). This notebook was run on the Python kernel.  
-Output:  
-* Cleaned flux data, which was used in stasitical analysis (R sub-notebook)  
-* Cleaned sample–model metadata, which was used in R sub-notebook  
-* Cleaned reaction metadata, which was incorporated into Supplementary Data 3 in R sub-notebook  
-* Figure 4a–d  
-* Supplementary Figure 2c–f  
+### 3. Code03_M001-related-transcriptomics_GEM-flux.ipynb  
+This Jupyter Notebook (with Python 3 kernel) compared the calculated flux values between the control and intervention groups.  
+Output figures and tables:  
+- Figure 6a, d  
+- Supplementary Data 8  
 
-### 4. Code02_M001-related-transcriptomics_GEM-flux-test.ipynb  
-This Jupyter Notebook performed stasitical analysis for the flux comparisons between sample groups; i.e., this is the sub-notebook of Code01_M001-related-transcriptomics_GEM-flux.ipynb. This notebook was run on the R kernel.  
-Output:  
-* Supplementary Data 3  
-
-### 5. Code03_M001-related-transcriptomics_GEM-subsystem-enrichment.ipynb  
-This Jupyter Notebook performed enrichment analysis for the GEM subsystems in the significantly flux-changed reactions. This notebook was run on the R kernel.  
-Output:  
-* Figure 4e  
-* Supplementary Figure 2a, b, g  
-* Supplementary Data 4  
+### 4. Code04_M001-related-transcriptomics_GEM-enrichment.ipynb  
+This Jupyter Notebook (with R kernel) performed the enrichment analysis on the potentially changed reactions using GEM subsystem annotations.  
+Output figures and tables:  
+- Figure 6b, c  
+- Supplementary Data 8  
 
 ## Requirements  
 The following library/package versions were used and hence confirmed at least.  
@@ -56,12 +47,12 @@ The following library/package versions were used and hence confirmed at least.
 * Python scikit-learn (version 1.0.1)  
 * R (version 4.1.1)  
 * R tidyverse (version 1.3.1)  
-* R dunn.test (version 1.3.5)  
-* R openxlsx (version 4.2.5)  
 * R clusterProfiler (version 4.2.2)  
 * R enrichplot (version 1.14.2)  
-* R readxl (version 4.2.5)  
+* R readxl (version 1.4.2)  
+* R openxlsx (version 4.2.5.2)  
 
 ## Log  
-Last update on Jul 22, 2022  
+Last update on Jun 3, 2023  
 * 2022-07-22 The directory was generated, the code files were uploaded, and README was edited.  
+* 2023-06-03 The code files and README were updated based on the revised manuscript.  
