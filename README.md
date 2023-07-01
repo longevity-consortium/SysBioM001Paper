@@ -9,7 +9,7 @@ This repository includes the main code used in our M001/M004 paper.
 Correspondence to Leroy Hood (lee.hood@isbscience.org) and Noa Rappaport (noa.rappaport@isbscience.org).  
 
 ## Overview  
-> The below figure numbers correspond to the revised manuscript that is still under review.  
+> The below figure numbers correspond to the revised manuscript that is still under review (2nd revision).  
 
 ### 1. DIRAC  
 This directory includes the main code for the differential rank conservation (DIRAC; Eddy, J.A. et al. PLoS Comput. Biol. 2010) analyses, corresponding to:  
@@ -18,8 +18,9 @@ This directory includes the main code for the differential rank conservation (DI
 * Figure 4  
 * Figure 5  
 * Supplementary Figure 1  
-* Supplementary Figure 2e, f  
-* Supplementary Figure 3  
+* Supplementary Figure 2  
+* Supplementary Figure 3e, f  
+* Supplementary Figure 4  
 * Supplementary Data 1  
 * Supplementary Data 4  
 * Supplementary Data 5  
@@ -29,7 +30,7 @@ This directory includes the main code for the differential rank conservation (DI
 ### 2. WGCNA  
 This directory includes the main code for the weighted gene correlation network analysis (WGCNA; Langfelder, P. & Horvath, S. BMC Bioinform. 2008), corresponding to:  
 * Figure 3b–e  
-* Supplementary Figure 2a–d  
+* Supplementary Figure 3a–d  
 * Supplementary Data 2  
 * Supplementary Data 3  
 
@@ -39,7 +40,8 @@ This directory includes the main code for the mouse genome-scale metabolic model
 * Supplementary Data 8  
 
 ## Log  
-Last update on Jun 3, 2023  
+Last update on Jun 30, 2023  
 * 2022-07-19 The repository was generated.  
 * 2022-07-22 The code files were uploaded and README was edited.  
-* 2023-06-03 The code files and README were updated based on the revised manuscript.  
+* 2023-06-03 The code files and README were updated based on the revised manuscript (1st revision).  
+* 2023-06-30 Two code files were added to the DIRAC directory and READMEs (figure numbers) were updated based on the revised manuscript (2nd revision).  

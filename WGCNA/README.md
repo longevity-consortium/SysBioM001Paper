@@ -2,20 +2,20 @@
 This directory includes the main code for the weighted gene correlation network analysis (WGCNA; Langfelder, P. & Horvath, S. BMC Bioinform. 2008) used in our M001/M004 paper.  
 
 ## Code overview  
-> The below figure numbers correspond to the revised manuscript that is still under review.  
+> The below figure numbers correspond to the revised manuscript that is still under review (2nd revision).  
 
 ### 1. Code01_LC-M001-proteomics_WGCNA-module.ipynb  
 This Jupyter Notebook (with R kernel) performed the module detection part of the WGCNA on the Longevity Consortium (LC) M001 proteomics dataset, followed by the enrichment analysis on the hub proteins of WGCNA-identified modules using Gene Ontology Biological Process (GOBP) annotations.  
 Output figures and tables:  
 - Figure 3d  
-- Supplementary Figure 2c  
+- Supplementary Figure 3c  
 - Supplementary Data 2, 3  
 
 ### 2. Code02_LC-M001-proteomics_WGCNA-analysis.ipynb  
 This Jupyter Notebook (with Python 3 kernel) performed the module analysis part of the WGCNA on the LC M001 proteomics dataset.  
 Output figures and tables:  
 - Figure 3b, c, e  
-- Supplementary Figure 2a, b, d  
+- Supplementary Figure 3a, b, d  
 - Supplementary Data 2  
 
 ## Requirements  
@@ -36,6 +36,7 @@ The following library/package versions were used and hence confirmed at least.
 * Python seaborn (version 0.11.2)  
 
 ## Log  
-Last update on Jun 2, 2023  
+Last update on Jun 30, 2023  
 * 2022-07-22 The directory was generated, the code files were uploaded, and README was edited.  
-* 2023-06-02 The code files and README were updated based on the revised manuscript.  
+* 2023-06-02 The code files and README were updated based on the revised manuscript (1st revision).  
+* 2023-06-30 README (figure numbers) was updated based on the revised manuscript (2nd revision).  
