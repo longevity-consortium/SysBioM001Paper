@@ -2,7 +2,7 @@
 This directory includes the main code for the differential rank conservation (DIRAC; Eddy, J.A. et al. PLoS Comput. Biol. 2010) analyses used in our M001/M004 paper.  
 
 ## Code overview  
-> The below figure numbers correspond to the revised manuscript that is still under review (2nd revision).  
+> The below figure numbers correspond to the published paper version.  
 
 ### 1. Code01_LC-M001-proteomics_DIRAC-GOBP.ipynb  
 This Jupyter Notebook (with Python 3 kernel) performed the DIRAC analysis on the Longevity Consortium (LC) M001 proteomics dataset using Gene Ontology Biological Process (GOBP) module set.  
@@ -60,7 +60,8 @@ The following library/package versions were used and hence confirmed at least.
 * Python goatools (version 1.2.3)  
 
 ## Log  
-Last update on Jun 30, 2023  
+Last update on Jul 24, 2023  
 * 2022-07-22 The directory was generated, the code files were uploaded, and README was edited.  
 * 2023-06-02 The code files and README were updated based on the revised manuscript (1st revision).  
 * 2023-06-30 Two code files were added and README (figure numbers) was updated based on the revised manuscript (2nd revision).  
+* 2023-07-24 README was updated after publication.  
