@@ -2,7 +2,7 @@
 This directory includes the main code for the mouse genome-scale metabolic model (GEM; Khodaee, S. et al. Sci. Rep. 2020) reconstruction analysis used in our M001/M004 paper.  
 
 ## Code overview  
-> The below figure numbers correspond to the revised manuscript that is still under review.  
+> The below figure numbers correspond to the published paper version.  
 
 ### 1. Code01_M001-related-transcriptomics_GEM-reconstruction.m  
 This MATLAB code reconstructed the context-specific GEMs by integrating the Longevity Consortium (LC) M001-related liver transcriptomics dataset (Tyshkovskiy, A. et al. Cell Metab. 2019) with a mouse GEM (iMM1865; Khodaee, S. et al. Sci. Rep. 2020).  
@@ -53,6 +53,7 @@ The following library/package versions were used and hence confirmed at least.
 * R openxlsx (version 4.2.5.2)  
 
 ## Log  
-Last update on Jun 3, 2023  
+Last update on Jul 24, 2023  
 * 2022-07-22 The directory was generated, the code files were uploaded, and README was edited.  
 * 2023-06-03 The code files and README were updated based on the revised manuscript.  
+* 2023-07-24 README was updated after publication.  
